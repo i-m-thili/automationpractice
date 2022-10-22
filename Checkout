@@ -1,0 +1,4194 @@
+id: LhwJt1wNmEKHMBFJjODtvQ
+projectId: 3Z0oSdSgeUaF6zhpNtnm2g
+projectName: Automationpractice
+created: 2022-10-22T16:56:02.8228109Z
+protocol: 1
+tests:
+- id: 52KI44ObekmZGyztCX1lhQ
+  name: Checkout
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-22T05:59:56.0000000
+  modificationDate: 2022-10-22T15:10:22.0000000
+  settings:
+    automationAssistant: true
+    appId: rYz5mx_sjkGuTFpaT5vPKA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: rYz5mx_sjkGuTFpaT5vPKA
+    name: My Store
+    url: http://automationpractice.com/index.php
+    platform: Web
+  steps:
+  - id: rtnzccHcfkeblXeSkL_rhA
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: BmVR2SeDEEyXSVLFpuAWkw
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: eaSj0e_H_UaGTH8ziKw2HA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: JYS_AzchsUu8R2D5dJB6RA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 5AyzDVejqkqh9Bo5-P5eaQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Women
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 6K7JJinByUacSFgz7n4lXQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 500
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Zd1nhM9DrUqNzuB9KSBRug
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: tphWVhs6iEyyeId67BF0aQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: UFZQfSvSbEeS6BeKzB_VSA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: l0arOjMvnEyuDA3xZq1Sow
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: DRESSES
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: etDaHG0sRkqPp5IO9aPF_g
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 400
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: w0aCIzREwU6jfVKpb-R3fQ
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: tMtuMo-8-U2a1wNcBckSlA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: OoOWo2uJr0y6N3vU3Aj1hw
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: h-CvOOJvd02PymFeOskffQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: 4ThT9HdzJkGm_gddHTXdAA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: SUMMER DRESSES
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GKlLp2VD3UCku1LUAezydw
+    comments: 'Sort by Price: Highest first'
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Addon
+    elementId: 5eBSAHgc9ES-8iYWzRSxXQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: T52qF0F4S0eSDKz2NXQJ1w
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: value
+      value: price:desc
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5S35apr2MEyAooJX8OWrzw
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 200
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: WG5uAhc-tk2Ky5ocDqZicw
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: HvsJchLW_UGn3_mfWh9mcA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zLMgQPdRFEmMcVU6svyR8A
+    comments: Validate whether item is added to the cart
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: ygGq1HFSXU28kXaG7l7-9w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Product successfully added to your shopping cart
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9q7mh0O1I0SlsCBdwwcI5w
+    comments: Get item name
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: Phye1FswIUqKPVbmDuuGCA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{itemName}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NMLpLtTI3kyLgRpUmyVaNw
+    comments: Get the total product value
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: QKSbTzn64EaU7C2e_0jV7w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{totalProductValue}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: OlNy-x24A0uFjlKgBznwHg
+    comments: Get the total shipping value
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: E2WH7gLkCUStQC_tiCUBhw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{totalShippingValue}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: WdzfAaSPSkqrvSx9Xxq-hA
+    comments: Get total value
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: PF649VtIFkGNy0Schl7NOA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{totalValue}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NGAKxJIc3kCWqQsFi_vyBQ
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: X2r3wEZN8EmzpHk8Fovzpw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 6251EOZ23UyivqkSbsQ31Q
+    comments: 'Validate whether shopping cart is loaded '
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    elementId: DAjd2HoykUuAGrDL5mrNMg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Your shopping cart
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vRTh658lJUeP-4AIDi-sFg
+    comments: Get the item name in cart
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: zpwJu0LUFUezSjoHbCMnqA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{cartItemName}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qJjnp2TFXkqSkD6oudKnHA
+    comments: Validate the item name in the cart
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    elementId: zpwJu0LUFUezSjoHbCMnqA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{itemName}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3fYUDsI4sUWVZ68woOs3qw
+    comments: Get the total products value in the cart
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: 3IBsBbsviE6jk3EwhpzOZw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{cartTotalProductsValue}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pnECofvnv0GoUCJJATEoTg
+    comments: Validate total product value in the shopping cart
+    enabled: true
+    invertResult: false
+    order: 24
+    repeat: 1
+    type: Action
+    elementId: 3IBsBbsviE6jk3EwhpzOZw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{totalProductValue}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: puAtdtcSpU6aZVGNyWRRZQ
+    comments: Get the total shipping value in the cart
+    enabled: true
+    invertResult: false
+    order: 25
+    repeat: 1
+    type: Action
+    elementId: w6cVet3SqkOGUrTlkFUz9A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{cartTotalShippingValue}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: DwlThN-0mUu_Jly6dMgsVQ
+    comments: Validate shipping value in the cart
+    enabled: true
+    invertResult: false
+    order: 26
+    repeat: 1
+    type: Action
+    elementId: w6cVet3SqkOGUrTlkFUz9A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{totalShippingValue}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: nwxcA1tJtU-KShoFKboVYg
+    comments: Get the total value without tax
+    enabled: true
+    invertResult: false
+    order: 27
+    repeat: 1
+    type: Action
+    elementId: 5773JUOeI0K2hktY-UWgNw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{totalWithoutTax}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: SQ4CgH5DdkyXTCaC8SXaiA
+    comments: Validate the total value in the cart without tax
+    enabled: true
+    invertResult: false
+    order: 28
+    repeat: 1
+    type: Action
+    elementId: MUonICbCQUe_04YnBur89w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{totalValue}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: LUwoCxJJl0mqhUAOd-tgNw
+    enabled: true
+    invertResult: false
+    order: 29
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: x-BvT8xi50CLr37aHRraeA
+    enabled: true
+    invertResult: false
+    order: 30
+    repeat: 1
+    type: Action
+    elementId: aQve9qI3KkmmbWRSFTqpSw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZVBNsVfzQkGb2ZrqYYaGmQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 31
+    repeat: 1
+    type: Action
+    elementId: PjCBc7-3K0yn3jWTYnnzbA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Authentication
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _o0FGInAN0mFQY_TRISgUw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 32
+    repeat: 1
+    type: Test
+    targetTestId: UsVjklrtQkKk5vx-hprNrA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    - name: randomEmailValue
+      value: '{{randomEmailValue}}'
+      direction: Output
+    - name: randomIndex
+      value: '{{randomIndex}}'
+      direction: Output
+    - name: firstName
+      value: '{{firstName}}'
+      direction: Input
+    - name: lastName
+      value: '{{lastName}}'
+      direction: Input
+    - name: companyName
+      value: '{{companyName}}'
+      direction: Input
+    - name: addressLine1
+      value: '{{addressLine1}}'
+      direction: Input
+    - name: adressLine2
+      value: '{{adressLine2}}'
+      direction: Input
+    - name: city
+      value: '{{city}}'
+      direction: Input
+    - name: state
+      value: '{{state}}'
+      direction: Output
+    - name: zipCode
+      value: '{{zipCode}}'
+      direction: Input
+    - name: country
+      value: '{{country}}'
+      direction: Output
+    - name: homePhone
+      value: '{{homePhone}}'
+      direction: Input
+    - name: mobilePhone
+      value: '{{mobilePhone}}'
+      direction: Input
+    - name: alias
+      value: '{{alias}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: H4Pp94SBEUG2orV6cDYYTQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 33
+    repeat: 1
+    type: Action
+    elementId: -NdhUoFUGkSKWTrZ3ScUxw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: ADDRESSES
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: IKA6SvDEVkKAav3DT1Drww
+    comments: Validate successful login
+    enabled: true
+    invertResult: false
+    order: 34
+    repeat: 1
+    type: Action
+    elementId: m-J421tqckKFxRBv973iwg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{firstName}} {{lastName}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: oQXOMs5ypUyYPMXlczqsBA
+    comments: Hover over the cart
+    enabled: true
+    invertResult: false
+    order: 35
+    repeat: 1
+    type: Action
+    elementId: RpuDZ9YzlU2PXtMi-O8awg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 631118c0-4828-42c8-aa69-0e6107d5956d
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8qO_4fZuUke40K69WxrviA
+    enabled: true
+    invertResult: false
+    order: 36
+    repeat: 1
+    type: Action
+    elementId: qARjnaYxEkm9Q6Q_9Egs7A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: gLnGskaITEyOx_gaCHUVpg
+    enabled: true
+    invertResult: false
+    order: 37
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 787
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ONScjJ5ymEOMsPbPG9eU1A
+    comments: 'Validate whether shopping cart is loaded '
+    enabled: true
+    invertResult: false
+    order: 38
+    repeat: 1
+    type: Action
+    elementId: DAjd2HoykUuAGrDL5mrNMg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Your shopping cart
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: D_fFnUvT-USsH0deWaPD5w
+    enabled: true
+    invertResult: false
+    order: 39
+    repeat: 1
+    type: Action
+    elementId: aQve9qI3KkmmbWRSFTqpSw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _PE_2EXf0UOcPWmPY-w5cg
+    comments: Validate billing name
+    enabled: true
+    invertResult: false
+    order: 40
+    repeat: 1
+    type: Action
+    elementId: Hzoll1Z5iUqKd069SnmBvQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{firstName}} {{lastName}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: wQRZSBJFoEeMNpAagD296A
+    comments: Validate whether addresses page is loaded
+    enabled: true
+    invertResult: false
+    order: 41
+    repeat: 1
+    type: Action
+    elementId: cRiSxbvt9k25xeHfwAs8dA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Addresses
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: gDjEX28HX02f85PjLO5EuQ
+    comments: Validate billing company
+    enabled: true
+    invertResult: false
+    order: 42
+    repeat: 1
+    type: Action
+    elementId: WYqWNkXTZkuZBcGgoz2Vow
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{companyName}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _ZOBztIIT0K3UIXgFo3r8A
+    comments: Validate billing address line 1
+    enabled: true
+    invertResult: false
+    order: 43
+    repeat: 1
+    type: Action
+    elementId: 9s3EM3BXD0-j0OoRgOowlQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{addressLine1}} {{adressLine2}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: spwf2vhGKkeggXNETV0_sQ
+    comments: Validate billing address line 2
+    enabled: true
+    invertResult: false
+    order: 44
+    repeat: 1
+    type: Action
+    elementId: JWo2jGpg6Eu2DWxVeN4v6w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{city}}, {{state}} {{zipCode}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7DAkBoFK10CvBStRB70yUw
+    comments: Validate the home phone number
+    enabled: true
+    invertResult: false
+    order: 45
+    repeat: 1
+    type: Action
+    elementId: AN6AH_MgKkerOrGawOncVA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{homePhone}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -recdbwzOkOvMO7gb1U0Gg
+    comments: Validate the mobile phone
+    enabled: true
+    invertResult: false
+    order: 46
+    repeat: 1
+    type: Action
+    elementId: BlO68C57WECJ6SF0Upxo1w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{mobilePhone}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ONrOJ9Q5b0iPfEnA_jIeqA
+    enabled: true
+    invertResult: false
+    order: 47
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 605
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PXg2Z-g6wkuPbJ3yrDTblw
+    enabled: true
+    invertResult: false
+    order: 48
+    repeat: 1
+    type: Action
+    elementId: E2jdxkwpVkGHhMUBPsZtrg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1OgxwarC30O-km8jXdG4yA
+    comments: Validate whether shipping page is loaded
+    enabled: true
+    invertResult: false
+    order: 49
+    repeat: 1
+    type: Action
+    elementId: 4YGY7_tFvUO7LHBkhJGk2A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Shipping
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VVfQgNAGKUqb8FiUiZBcjg
+    enabled: true
+    invertResult: false
+    order: 50
+    repeat: 1
+    type: Action
+    elementId: 2j_JVaqqWkOYuAJUspScyg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ko_xDzC2mkG8Op9-FAvZLw
+    enabled: true
+    invertResult: false
+    order: 51
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 586
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: WBehReEDU0KtyDZeVV-hoQ
+    enabled: true
+    invertResult: false
+    order: 52
+    repeat: 1
+    type: Action
+    elementId: ueEbmWNwmk2ANPFeVlnsCw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: D8_zCvzyokm72RmyPErzow
+    comments: Validate whether payment page is loaded
+    enabled: true
+    invertResult: false
+    order: 53
+    repeat: 1
+    type: Action
+    elementId: jaIGKU0wS0OlffJdOXC5nA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Your payment method
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: QaHNDjaxiUikCMsmmJlI-Q
+    enabled: true
+    invertResult: false
+    order: 54
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: W519Jv0BfUSsW1z5uQA4iA
+    enabled: true
+    invertResult: false
+    order: 55
+    repeat: 1
+    type: Action
+    elementId: Ga-iuxWYcEeJvBHryEctUg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: nIbd2EZke0yaoTzNQdmXZw
+    comments: Validate whether payment method is loaded
+    enabled: true
+    invertResult: false
+    order: 56
+    repeat: 1
+    type: Action
+    elementId: 7xA9R6bdMk6DMry202Fs6g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Bank-wire payment.
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: cm3_llcaRUyKzCk8vssDQg
+    enabled: true
+    invertResult: false
+    order: 57
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 388
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bTSdDcbjbkS2dOJsEb-NWw
+    enabled: true
+    invertResult: false
+    order: 58
+    repeat: 1
+    type: Action
+    elementId: _1A1vbr7oE2t9Hlv1brqSg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: omqhazHjQ0e6eI1Db29W_w
+    comments: Validated whether order confirmation is loaded
+    enabled: true
+    invertResult: false
+    order: 59
+    repeat: 1
+    type: Action
+    elementId: 9CK1W4SCPkuaZ4Tf_5ckZw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Order confirmation
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fQtfBBu5XEWTgQpkco_mlg
+    enabled: true
+    invertResult: false
+    order: 60
+    repeat: 1
+    type: Action
+    elementId: tCgWOOxhwkOqNB1lzOHLEA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: http://automationpractice.com/index.php
+    type: Input
+  - name: itemName
+    description: ''
+    value: ''
+    type: Output
+  - name: totalProductValue
+    description: ''
+    value: ''
+    type: Output
+  - name: totalShippingValue
+    description: ''
+    value: ''
+    type: Output
+  - name: totalValue
+    description: ''
+    value: ''
+    type: Output
+  - name: cartItemName
+    description: ''
+    value: ''
+    type: Output
+  - name: cartTotalProductsValue
+    description: ''
+    value: ''
+    type: Output
+  - name: cartTotalShippingValue
+    description: ''
+    value: ''
+    type: Output
+  - name: totalWithoutTax
+    description: ''
+    value: ''
+    type: Output
+  - name: randomEmailValue
+    description: ''
+    value: ''
+    type: Private
+  - name: randomIndex
+    description: ''
+    value: ''
+    type: Private
+  - name: firstName
+    description: ''
+    value: ''
+    type: Input
+  - name: lastName
+    description: ''
+    value: ''
+    type: Input
+  - name: companyName
+    description: ''
+    value: ABCD Company
+    type: Input
+  - name: addressLine1
+    description: ''
+    value: 221B
+    type: Input
+  - name: adressLine2
+    description: ''
+    value: Baker Street
+    type: Input
+  - name: city
+    description: ''
+    value: London
+    type: Input
+  - name: state
+    description: ''
+    value: ''
+    type: Private
+  - name: zipCode
+    description: ''
+    value: 12345
+    type: Input
+  - name: country
+    description: ''
+    value: ''
+    type: Private
+  - name: homePhone
+    description: ''
+    value: 0111234567
+    type: Input
+  - name: mobilePhone
+    description: ''
+    value: 0771234567
+    type: Input
+  - name: alias
+    description: ''
+    value: 221
+    type: Input
+auxTests:
+- id: UsVjklrtQkKk5vx-hprNrA
+  name: Create Account
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-01T13:33:32.0000000
+  modificationDate: 2022-10-22T16:08:59.0000000
+  settings:
+    automationAssistant: true
+    appId: rYz5mx_sjkGuTFpaT5vPKA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: sw1U73d-VkGMiLOkE9ADJw
+    comments: create random email
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: YHKpdDSNAE2QOWsTZob-4Q
+      source: Store
+      addonId: uhFWuHjwpU-gl6uzWR5TXA
+    parameterMaps:
+    - name: localPart
+      value: ''
+      direction: Input
+    - name: domain
+      value: ''
+      direction: Input
+    - name: localPartLength
+      value: 10
+      direction: Input
+    - name: isLower
+      value: true
+      direction: Input
+    - name: isUpper
+      value: false
+      direction: Input
+    - name: isSpecial
+      value: false
+      direction: Input
+    - name: emailAddress
+      value: '{{randomEmailValue}}'
+      direction: Output
+    conditions: []
+    validations:
+    - type: Contains
+      invert: false
+      field: emailAddress
+      value: '@'
+    contexts: []
+  - id: SvL6WoOTdUm21HgW73L5Rw
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: fpkxV-3-002P6h2X5c0eAg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{randomEmailValue}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uarA2DTu7kKTJuvgegoNhg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: JLslBYzKEECMoJw-MmPcdg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: C-IvOOVDMkqd5W_xuPhK2g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: PjCBc7-3K0yn3jWTYnnzbA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Authentication
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -GjIjciDA0OSWIC6mVeQqQ
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: oR5ALouErkmDFOkon_lXqA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7OyRSjzwBUGig8jwNyvvOQ
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: U3rRo9uk3Ue4BGOZEqPCTg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: S3caed0f1EC18y6jjEtRUw
+    comments: generate random first name
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: -H98fdaDgEmY3UvRXNL7xQ
+      source: Store
+      addonId: -kT4Fi1xFk6PF8xkHU4vDg
+    parameterMaps:
+    - name: result
+      value: '{{firstName}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: mOCQwxoOd0yAgLxL2ZZsxA
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: U3rRo9uk3Ue4BGOZEqPCTg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{firstName}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: x2hWxShrskKLXIpDXJvjQg
+    comments: generate random last name
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 8nGSxKf39kWU9SO2STu4Jw
+      source: Store
+      addonId: -kT4Fi1xFk6PF8xkHU4vDg
+    parameterMaps:
+    - name: result
+      value: '{{lastName}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: WU0Bwr5VFU-9SKl-ZvCP_Q
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: eCzEwlfE3EqVL9u-trx6Eg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{lastName}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PskBoF0B5EmzmEfnImJJxw
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: k1FtUfn9lEqdKsSfmsWf9g
+    comments: generate random password
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: wV-oaMe-N069YX-ISFnuxg
+      source: Store
+      addonId: uhFWuHjwpU-gl6uzWR5TXA
+    parameterMaps:
+    - name: passwordLength
+      value: 8
+      direction: Input
+    - name: specialCharacters
+      value: true
+      direction: Input
+    - name: digits
+      value: true
+      direction: Input
+    - name: upperCase
+      value: true
+      direction: Input
+    - name: lowerCase
+      value: true
+      direction: Input
+    - name: generatedPassword
+      value: '{{password}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: yXpB8fYTp0mHZeC7qDqCPA
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: -zels3-6WkmtHXvW6mF6KA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{password}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vyHIQL9H30KebVy9R6ZiHQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: nHBKyka6qkCOqAudow9lbg
+      source: Store
+      addonId: -kT4Fi1xFk6PF8xkHU4vDg
+    parameterMaps:
+    - name: min
+      value: 2
+      direction: Input
+    - name: max
+      value: 29
+      direction: Input
+    - name: result
+      value: '{{randomIndex}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1R92na9fkEWBwWteq_SERA
+    comments: select day
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: Zqodc9gBfk6cTW94c8q_PA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: QwZryvjRq0aA-mei4gbJ2w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: nHBKyka6qkCOqAudow9lbg
+      source: Store
+      addonId: -kT4Fi1xFk6PF8xkHU4vDg
+    parameterMaps:
+    - name: min
+      value: 2
+      direction: Input
+    - name: max
+      value: 13
+      direction: Input
+    - name: result
+      value: '{{randomIndex}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1-F2dEzGxkebCKI70dXXGw
+    comments: select month
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: u7RtE0Jq1Ey9zCAWk5Ha6A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lRuQ_VD1UU-1VLe_mjILVA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: nHBKyka6qkCOqAudow9lbg
+      source: Store
+      addonId: -kT4Fi1xFk6PF8xkHU4vDg
+    parameterMaps:
+    - name: min
+      value: 2
+      direction: Input
+    - name: max
+      value: 124
+      direction: Input
+    - name: result
+      value: '{{randomIndex}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: HiXDFoPmu06x8iRVTpNszA
+    comments: >
+      select year
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: 7mrQxXF8j0mfHjzgGzUNFw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bbHd3dJY5E-Y9DIfhBT4LA
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    elementId: l8AsuEZmi069E-JdgD-T7w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: rFlECZONSU6fwYUardkXDQ
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: KE1jS8eXFkaY8PjdNqdpiw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: M0PWjTcWYUmUNXKRHZkDjg
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 200
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Yw6ly3aD9kuaaJVW9tzoTg
+    comments: Validate first name under Your Address section
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: 3K_rRVEcq0mtHkKjjNsemg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{firstName}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: RFGvafGxSUafN3vx3bO1Eg
+    comments: Validate last name under Your Address section
+    enabled: true
+    invertResult: false
+    order: 24
+    repeat: 1
+    type: Action
+    elementId: tDSeRE9zKEaMmtKYMolPhg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{lastName}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fzbMzCwl-ky8LvJweHz1Mw
+    enabled: true
+    invertResult: false
+    order: 25
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 200
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -Gurm_pVcEi6eo4I4WVoWA
+    enabled: true
+    invertResult: false
+    order: 26
+    repeat: 1
+    type: Action
+    elementId: 9UJ_lHf9Akq9AnTBYGozNw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0ucRwMMe9UKqCjwsBgZE2g
+    enabled: true
+    invertResult: false
+    order: 27
+    repeat: 1
+    type: Action
+    elementId: 9UJ_lHf9Akq9AnTBYGozNw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{companyName}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: nLxB-13y6kGMpfBU6eZJYg
+    enabled: true
+    invertResult: false
+    order: 28
+    repeat: 1
+    type: Action
+    elementId: IFMw1D2cCUK-yFChJseQww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: D2A38SggVUqI32pS4heWcg
+    enabled: true
+    invertResult: false
+    order: 29
+    repeat: 1
+    type: Action
+    elementId: IFMw1D2cCUK-yFChJseQww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{addressLine1}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5DU2aOGXME-_NW1GisERcg
+    enabled: true
+    invertResult: false
+    order: 30
+    repeat: 1
+    type: Action
+    elementId: 4NKSB5z2REi-H5rBCFk2uw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fLgllYaRQkKa4-P5xFliYw
+    enabled: true
+    invertResult: false
+    order: 31
+    repeat: 1
+    type: Action
+    elementId: 4NKSB5z2REi-H5rBCFk2uw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{adressLine2}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pqeRI4UKQ0aQHcetF7E4Sw
+    enabled: true
+    invertResult: false
+    order: 32
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 200
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: j8_BSGFW9UelFohyIwfdMw
+    enabled: true
+    invertResult: false
+    order: 33
+    repeat: 1
+    type: Action
+    elementId: 1xQ3uoQIg0up42kZR4qtjw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: o00dgJWvykuLLKFrm_eaVA
+    enabled: true
+    invertResult: false
+    order: 34
+    repeat: 1
+    type: Action
+    elementId: 1xQ3uoQIg0up42kZR4qtjw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{city}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kU2AhK5hGU2XWnhncBE99A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 35
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: nHBKyka6qkCOqAudow9lbg
+      source: Store
+      addonId: -kT4Fi1xFk6PF8xkHU4vDg
+    parameterMaps:
+    - name: min
+      value: 2
+      direction: Input
+    - name: max
+      value: 54
+      direction: Input
+    - name: result
+      value: '{{randomIndex}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: K_GfJvgwN0CDOSWiMe_1SQ
+    comments: select state
+    enabled: true
+    invertResult: false
+    order: 36
+    repeat: 1
+    type: Action
+    elementId: ghBKn_EGZk-IkLMO_kqz6w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: x_oC4JgX30WhFcDB2fC0RA
+    comments: get the state name
+    enabled: true
+    invertResult: false
+    order: 37
+    repeat: 1
+    type: Addon
+    elementId: y2Pwogj_G0ubVSjsZCyRPA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: g-SWxg5gWUa_7Zy6Pqtu7w
+      source: Store
+      addonId: Mav6joc0AkWwIDSskHVzTQ
+    parameterMaps:
+    - name: result
+      value: '{{state}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: io5vPd2MKkurkKHtrsMI_Q
+    enabled: true
+    invertResult: false
+    order: 38
+    repeat: 1
+    type: Action
+    elementId: tiOg0l7qd0iKuSTg4g-25w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 6m6VgREZrkufx3YOa8rvSQ
+    enabled: true
+    invertResult: false
+    order: 39
+    repeat: 1
+    type: Action
+    elementId: tiOg0l7qd0iKuSTg4g-25w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{zipCode}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: CXRiCPpjfEqDD8_LBur33Q
+    enabled: true
+    invertResult: false
+    order: 40
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 100
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _YVcSIEAd0qeqoXGdoawPg
+    comments: select country
+    enabled: true
+    invertResult: false
+    order: 41
+    repeat: 1
+    type: Addon
+    elementId: MNzTGB8mzUSQsHJrysmlnQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: cFwIaQAe2kKuqTip20sJhg
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: index
+      value: 1
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zD3u0FxnEUS2bNwdD92s7Q
+    comments: get the country name
+    enabled: true
+    invertResult: false
+    order: 42
+    repeat: 1
+    type: Addon
+    elementId: MNzTGB8mzUSQsHJrysmlnQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: g-SWxg5gWUa_7Zy6Pqtu7w
+      source: Store
+      addonId: Mav6joc0AkWwIDSskHVzTQ
+    parameterMaps:
+    - name: result
+      value: '{{country}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kmEM6CqW-0mAE9LVpkI7lw
+    enabled: true
+    invertResult: false
+    order: 43
+    repeat: 1
+    type: Action
+    elementId: nqH8rgD02UidnoAZpVOCAA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bj1fzjyjvkak8LOabRxGkA
+    enabled: true
+    invertResult: false
+    order: 44
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 100
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3BuA72Ed6k-YjczcRtLj0A
+    enabled: true
+    invertResult: false
+    order: 45
+    repeat: 1
+    type: Action
+    elementId: nqH8rgD02UidnoAZpVOCAA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Lorem ipsum doler amet
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: SjwiQtcTVEiKKPpxL-OLKQ
+    enabled: true
+    invertResult: false
+    order: 46
+    repeat: 1
+    type: Action
+    elementId: CdwCYGD8ME28v-2m5BWtBg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: EPw_d_g8dEyXUYfncoLG3w
+    enabled: true
+    invertResult: false
+    order: 47
+    repeat: 1
+    type: Action
+    elementId: CdwCYGD8ME28v-2m5BWtBg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{homePhone}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: CZDW3dkGo0u6pC_aH4_DbQ
+    enabled: true
+    invertResult: false
+    order: 48
+    repeat: 1
+    type: Action
+    elementId: QuedUeIrv0uNCz7Wns3RuA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7hz2y0XgEUGsaYiuHgMYtQ
+    enabled: true
+    invertResult: false
+    order: 49
+    repeat: 1
+    type: Action
+    elementId: QuedUeIrv0uNCz7Wns3RuA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{mobilePhone}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FodZ3LXy4UChKrcqrT-Nxg
+    enabled: true
+    invertResult: false
+    order: 50
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 100
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fN4f81FVp02lOWsukwUUMw
+    enabled: true
+    invertResult: false
+    order: 51
+    repeat: 1
+    type: Action
+    elementId: sqOJPRCdwEqISArG2qJZHw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tvTwlKHb4UW92c0eZEBzCA
+    comments: clear alias existing text
+    enabled: true
+    invertResult: false
+    order: 52
+    repeat: 1
+    type: Action
+    elementId: sqOJPRCdwEqISArG2qJZHw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8-UOY5jaM0G53z0ZjUKXHQ
+    enabled: true
+    invertResult: false
+    order: 53
+    repeat: 1
+    type: Action
+    elementId: sqOJPRCdwEqISArG2qJZHw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{alias}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: igGl603ChUqpMNy0hOW37w
+    enabled: true
+    invertResult: false
+    order: 54
+    repeat: 1
+    type: Action
+    elementId: IM55Yf_l5EaKhBHZhnQgCA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: http://automationpractice.com/index.php
+    type: Input
+  - name: randomEmailValue
+    description: ''
+    value: ''
+    type: Output
+  - name: randomIndex
+    description: ''
+    value: ''
+    type: Output
+  - name: password
+    description: ''
+    value: 12345678
+    type: Private
+  - name: firstName
+    description: ''
+    value: ''
+    type: Input
+  - name: lastName
+    description: ''
+    value: ''
+    type: Input
+  - name: companyName
+    description: ''
+    value: ABCD Company
+    type: Input
+  - name: addressLine1
+    description: ''
+    value: 221B
+    type: Input
+  - name: adressLine2
+    description: ''
+    value: Baker Street
+    type: Input
+  - name: city
+    description: ''
+    value: London
+    type: Input
+  - name: state
+    description: ''
+    value: ''
+    type: Output
+  - name: zipCode
+    description: ''
+    value: 12345
+    type: Input
+  - name: country
+    description: ''
+    value: ''
+    type: Output
+  - name: homePhone
+    description: ''
+    value: 0111234567
+    type: Input
+  - name: mobilePhone
+    description: ''
+    value: 0771234567
+    type: Input
+  - name: alias
+    description: ''
+    value: 221
+    type: Input
+elements:
+- id: eaSj0e_H_UaGTH8ziKw2HA
+  name: WOMEN
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Women']
+    priority: 0
+  - name: XPATH
+    value: //div[6]/ul/li[1]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/header/div[3]/div/div/div[6]/ul/li[1]/a
+    priority: 2
+- id: 5AyzDVejqkqh9Bo5-P5eaQ
+  name: Women1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Women']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/span[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[1]/span[2]
+    priority: 2
+- id: tphWVhs6iEyyeId67BF0aQ
+  name: IMG
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[2]/div[1]/a/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div[2]/div[2]/ul/li[2]/div[1]/a/img
+    priority: 1
+- id: l0arOjMvnEyuDA3xZq1Sow
+  name: DRESSES
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Dresses ']
+    priority: 0
+  - name: XPATH
+    value: //h1/span[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div[2]/h1/span[1]
+    priority: 2
+- id: tMtuMo-8-U2a1wNcBckSlA
+  name: IMG1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[3]/div[1]/a/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div[2]/div[2]/ul/li[3]/div[1]/a/img
+    priority: 1
+- id: 4ThT9HdzJkGm_gddHTXdAA
+  name: SUMMER DRESSES
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Summer Dresses ']
+    priority: 0
+  - name: XPATH
+    value: //h1/span[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div[2]/h1/span[1]
+    priority: 2
+- id: 5eBSAHgc9ES-8iYWzRSxXQ
+  name: selectProductSort
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#selectProductSort'
+    priority: 0
+  - name: XPATH
+    value: //select
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div[2]/div[2]/div[1]/form/div/div/select
+    priority: 2
+- id: HvsJchLW_UGn3_mfWh9mcA
+  name: Add to cart
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[1]//span[. = 'Add to cart']
+    priority: 0
+  - name: XPATH
+    value: //li[1]/div/div[2]/div[2]/a[1]/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div[2]/ul/li[1]/div/div[2]/div[2]/a[1]/span
+    priority: 2
+- id: ygGq1HFSXU28kXaG7l7-9w
+  name: Product successfully added to your sh...
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //h2[. = '
+      					Product successfully added to your shopping cart
+      				']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/h2
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/header/div[3]/div/div/div[4]/div[1]/div[1]/h2
+    priority: 2
+- id: Phye1FswIUqKPVbmDuuGCA
+  name: Item name
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#layer_cart_product_title'
+    priority: 0
+  - name: XPATH
+    value: //div[4]/div[1]/div[1]/div/span[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/header/div[3]/div/div/div[4]/div[1]/div[1]/div[2]/span[1]
+    priority: 2
+  - name: XPATH
+    value: //span[. = 'Printed Chiffon Dress']
+    priority: 3
+- id: QKSbTzn64EaU7C2e_0jV7w
+  name: Total product  value
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/div[1]/div[2]/div[1]/span
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/header/div[3]/div/div/div[4]/div[1]/div[2]/div[1]/span
+    priority: 1
+  - name: XPATH
+    value: //div/div[1]/span[. = '']
+    priority: 2
+- id: E2WH7gLkCUStQC_tiCUBhw
+  name: Total shipping value
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/div[1]/div[2]/div[2]/span
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/header/div[3]/div/div/div[4]/div[1]/div[2]/div[2]/span
+    priority: 1
+  - name: XPATH
+    value: //div[2]/span[. = '']
+    priority: 2
+- id: PF649VtIFkGNy0Schl7NOA
+  name: Total Value
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/span
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/header/div[3]/div/div/div[4]/div[1]/div[2]/div[3]/span
+    priority: 1
+  - name: XPATH
+    value: //div[3]/span[. = '']
+    priority: 2
+- id: X2r3wEZN8EmzpHk8Fovzpw
+  name: Proceed to checkout
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //span[. = '
+      							Proceed to checkout
+      						']
+    priority: 0
+  - name: XPATH
+    value: //div[4]/a/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/header/div[3]/div/div/div[4]/div[1]/div[2]/div[4]/a/span
+    priority: 2
+- id: DAjd2HoykUuAGrDL5mrNMg
+  name: Your shopping cart
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Your shopping cart']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/span[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[1]/span[2]
+    priority: 2
+- id: zpwJu0LUFUezSjoHbCMnqA
+  name: Item name - cart
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = '{{cartItemName}}']
+    priority: 1
+  - name: XPATH
+    value: //td/p/a
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr/td[2]/p/a
+    priority: 2
+- id: 3IBsBbsviE6jk3EwhpzOZw
+  name: Total products - cart
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#total_product'
+    priority: 0
+  - name: XPATH
+    value: //td[. = '{{cartTotalProductsValue}}']
+    priority: 1
+  - name: XPATH
+    value: //tfoot//td[3]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div[2]/table/tfoot/tr[1]/td[3]
+    priority: 3
+- id: w6cVet3SqkOGUrTlkFUz9A
+  name: Total shipping value - cart
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#total_shipping'
+    priority: 0
+  - name: XPATH
+    value: //td[. = '$2.00']
+    priority: 1
+  - name: XPATH
+    value: //tr[3]/td[2]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div[2]/table/tfoot/tr[3]/td[2]
+    priority: 3
+- id: 5773JUOeI0K2hktY-UWgNw
+  name: Total without tax -cart
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#total_price_without_tax'
+    priority: 0
+  - name: XPATH
+    value: //td[. = '$59.96']
+    priority: 1
+  - name: XPATH
+    value: //tr[4]/td[2]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div[2]/table/tfoot/tr[4]/td[2]
+    priority: 3
+- id: MUonICbCQUe_04YnBur89w
+  name: Total without tax - cart
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#total_price_without_tax'
+    priority: 0
+  - name: XPATH
+    value: //td[. = '{{totalWithoutTax}}']
+    priority: 1
+  - name: XPATH
+    value: //tr[5]/td[2]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div[2]/table/tfoot/tr[5]/td[2]
+    priority: 3
+- id: aQve9qI3KkmmbWRSFTqpSw
+  name: Proceed to checkout1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Proceed to checkout']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/p//span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/p[2]/a[1]/span
+    priority: 2
+- id: PjCBc7-3K0yn3jWTYnnzbA
+  name: Authentication
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = '	Authentication']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div//span[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[1]/span[2]
+    priority: 2
+- id: -NdhUoFUGkSKWTrZ3ScUxw
+  name: ADDRESSES
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h1[. = 'Addresses']
+    priority: 0
+  - name: XPATH
+    value: //h1
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/h1
+    priority: 2
+- id: m-J421tqckKFxRBv973iwg
+  name: User Name
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[1]/a
+    priority: 0
+  - name: XPATH
+    value: //a[. = '{{firstName}} {{lastName}}']
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/header/div[2]/div/div/nav/div[1]/a
+    priority: 2
+- id: RpuDZ9YzlU2PXtMi-O8awg
+  name: Cart 1 Product
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //a[. = '
+      			Cart
+      			1
+      			Product
+      			Products
+      			$28.98
+      			(empty)
+      					']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/header/div[3]/div/div/div[3]/div/a
+    priority: 2
+- id: qARjnaYxEkm9Q6Q_9Egs7A
+  name: Check out
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //span[. = '
+      									Check out
+      								']
+    priority: 0
+  - name: XPATH
+    value: //p[2]//span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/header/div[3]/div/div/div[3]/div/div/div/div/p[2]/a/span
+    priority: 2
+- id: Hzoll1Z5iUqKd069SnmBvQ
+  name: Billing Name
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/ul/li[. = '{{firstName}} {{lastName}}']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/ul/li[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/form/div/div[2]/div[2]/ul/li[2]
+    priority: 2
+- id: cRiSxbvt9k25xeHfwAs8dA
+  name: Addresses1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Addresses']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div//span[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[1]/span[2]
+    priority: 2
+- id: WYqWNkXTZkuZBcGgoz2Vow
+  name: Billing company
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/ul/li[. = '{{companyName}}']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/ul/li[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/form/div/div[2]/div[2]/ul/li[3]
+    priority: 2
+- id: 9s3EM3BXD0-j0OoRgOowlQ
+  name: Billing Address line 1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/ul/li[. = '{{addressLine1}} {{adressLine2}}']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/ul/li[4]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/form/div/div[2]/div[2]/ul/li[4]
+    priority: 2
+- id: JWo2jGpg6Eu2DWxVeN4v6w
+  name: Billing address line 2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/ul/li[. = '{{city}}, {{state}} {{zipCode}}']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/ul/li[5]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/form/div/div[2]/div[2]/ul/li[5]
+    priority: 2
+- id: AN6AH_MgKkerOrGawOncVA
+  name: Home phone
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/ul/li[. = '{{homePhone}}']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/ul/li[7]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/form/div/div[2]/div[2]/ul/li[7]
+    priority: 2
+- id: BlO68C57WECJ6SF0Upxo1w
+  name: Mobile phone
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/ul/li[. = '{{mobilePhone}}']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/ul/li[8]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/form/div/div[2]/div[2]/ul/li[8]
+    priority: 2
+- id: E2jdxkwpVkGHhMUBPsZtrg
+  name: Proceed to checkout2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Proceed to checkout']
+    priority: 0
+  - name: XPATH
+    value: //p/button/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/form/p/button/span
+    priority: 2
+- id: 4YGY7_tFvUO7LHBkhJGk2A
+  name: Shipping1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Shipping']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div//span[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[1]/span[2]
+    priority: 2
+- id: 2j_JVaqqWkOYuAJUspScyg
+  name: cgv
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDk
+    name: Checkbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#cgv'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='cgv']"
+    priority: 1
+  - name: XPATH
+    value: //p/div//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div/p[2]/div/span/input
+    priority: 3
+- id: ueEbmWNwmk2ANPFeVlnsCw
+  name: Proceed to checkout3
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //span[. = '
+      								Proceed to checkout
+      								
+      							']
+    priority: 0
+  - name: XPATH
+    value: //p/button/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/p/button/span
+    priority: 2
+- id: jaIGKU0wS0OlffJdOXC5nA
+  name: Your payment method
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Your payment method']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/span[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[1]/span[2]
+    priority: 2
+- id: Ga-iuxWYcEeJvBHryEctUg
+  name: Pay by bank wire (order processing wi...
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //a[. = '
+                  	Pay by bank wire (order processing will be longer)
+                  ']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div/div[3]/div[1]/div/p/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/div[3]/div[1]/div/p/a
+    priority: 2
+- id: 7xA9R6bdMk6DMry202Fs6g
+  name: Bank-wire payment.
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //span[. = '    Bank-wire payment.
+
+      ']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div//span[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[1]/span[2]
+    priority: 2
+- id: _1A1vbr7oE2t9Hlv1brqSg
+  name: I confirm my order
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'I confirm my order']
+    priority: 0
+  - name: XPATH
+    value: //p/button/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/form/p/button/span
+    priority: 2
+- id: 9CK1W4SCPkuaZ4Tf_5ckZw
+  name: Order confirmation1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Order confirmation']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div//span[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[1]/span[2]
+    priority: 2
+- id: tCgWOOxhwkOqNB1lzOHLEA
+  name: Sign out
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //a[. = '
+      			Sign out
+      		']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/header/div[2]/div/div/nav/div[2]/a
+    priority: 2
+- id: fpkxV-3-002P6h2X5c0eAg
+  name: email_create
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#email_create'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='email_create']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/div[1]/form/div/div[2]/input
+    priority: 3
+- id: JLslBYzKEECMoJw-MmPcdg
+  name: Create an account
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //span[. = '
+      								
+      								Create an account
+      							']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/button/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/div[1]/form/div/div[3]/button/span
+    priority: 2
+- id: PjCBc7-3K0yn3jWTYnnzbA
+  name: Authentication
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = '	Authentication']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div//span[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[1]/span[2]
+    priority: 2
+- id: oR5ALouErkmDFOkon_lXqA
+  name: id_gender
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDg
+    name: Radio
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#id_gender1'
+    priority: 0
+  - name: XPATH
+    value: //div[1]/label//input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[1]/div[1]/label/div/span/input
+    priority: 2
+- id: U3rRo9uk3Ue4BGOZEqPCTg
+  name: customer_firstname
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#customer_firstname'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='customer_firstname']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[2]/input
+    priority: 3
+- id: eCzEwlfE3EqVL9u-trx6Eg
+  name: customer_lastname
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#customer_lastname'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='customer_lastname']"
+    priority: 1
+  - name: XPATH
+    value: //div[3]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[3]/input
+    priority: 3
+- id: -zels3-6WkmtHXvW6mF6KA
+  name: passwd
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#passwd'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='passwd']"
+    priority: 1
+  - name: XPATH
+    value: //div[5]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[5]/input
+    priority: 3
+- id: Zqodc9gBfk6cTW94c8q_PA
+  name: days
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[1]/div/select/option[{{randomIndex}}]
+    priority: 0
+- id: u7RtE0Jq1Ey9zCAWk5Ha6A
+  name: months
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/select/option[{{randomIndex}}]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[6]/div/div[2]/div/select/option[{{randomIndex}}]
+    priority: 1
+- id: 7mrQxXF8j0mfHjzgGzUNFw
+  name: years
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/select/option[{{randomIndex}}]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[6]/div/div[3]/div/select/option[{{randomIndex}}]
+    priority: 1
+- id: l8AsuEZmi069E-JdgD-T7w
+  name: newsletter
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDk
+    name: Checkbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#newsletter'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='newsletter']"
+    priority: 1
+  - name: XPATH
+    value: //div[7]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[7]/div/span/input
+    priority: 3
+- id: KE1jS8eXFkaY8PjdNqdpiw
+  name: optin
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDk
+    name: Checkbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#optin'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='optin']"
+    priority: 1
+  - name: XPATH
+    value: //div[8]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[8]/div/span/input
+    priority: 3
+- id: 3K_rRVEcq0mtHkKjjNsemg
+  name: firstname
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#firstname'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='firstname']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]/p[1]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[1]/input
+    priority: 3
+- id: tDSeRE9zKEaMmtKYMolPhg
+  name: lastname
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#lastname'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='lastname']"
+    priority: 1
+  - name: XPATH
+    value: //p[2]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[2]/input
+    priority: 3
+- id: 9UJ_lHf9Akq9AnTBYGozNw
+  name: company
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#company'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='company']"
+    priority: 1
+  - name: XPATH
+    value: //p[3]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[3]/input
+    priority: 3
+- id: IFMw1D2cCUK-yFChJseQww
+  name: address1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#address1'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='address1']"
+    priority: 1
+  - name: XPATH
+    value: //p[4]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[4]/input
+    priority: 3
+- id: 4NKSB5z2REi-H5rBCFk2uw
+  name: address2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#address2'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='address2']"
+    priority: 1
+  - name: XPATH
+    value: //p[5]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[5]/input
+    priority: 3
+- id: 1xQ3uoQIg0up42kZR4qtjw
+  name: city
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#city'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='city']"
+    priority: 1
+  - name: XPATH
+    value: //p[6]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[6]/input
+    priority: 3
+- id: ghBKn_EGZk-IkLMO_kqz6w
+  name: id_state
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: XPATH
+    value: //p[7]//select/option[{{randomIndex}}]
+    priority: 0
+- id: y2Pwogj_G0ubVSjsZCyRPA
+  name: id_state1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#id_state'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='id_state']"
+    priority: 1
+  - name: XPATH
+    value: //p[7]//select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[7]/div/select
+    priority: 3
+- id: tiOg0l7qd0iKuSTg4g-25w
+  name: postcode
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#postcode'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='postcode']"
+    priority: 1
+  - name: XPATH
+    value: //p[8]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[8]/input
+    priority: 3
+- id: MNzTGB8mzUSQsHJrysmlnQ
+  name: id_country
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#id_country'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='id_country']"
+    priority: 1
+  - name: XPATH
+    value: //p[9]//select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[9]/div/select
+    priority: 3
+- id: nqH8rgD02UidnoAZpVOCAA
+  name: other
+  type:
+    id: jUwODgyNjAyNzk2NTk2OTA
+    name: textarea
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#other'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='other']"
+    priority: 1
+  - name: XPATH
+    value: //textarea
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[10]/textarea
+    priority: 3
+- id: CdwCYGD8ME28v-2m5BWtBg
+  name: phone
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#phone'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='phone']"
+    priority: 1
+  - name: XPATH
+    value: //p[12]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[12]/input
+    priority: 3
+- id: QuedUeIrv0uNCz7Wns3RuA
+  name: phone_mobile
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#phone_mobile'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='phone_mobile']"
+    priority: 1
+  - name: XPATH
+    value: //p[13]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[13]/input
+    priority: 3
+- id: sqOJPRCdwEqISArG2qJZHw
+  name: alias
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#alias'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='alias']"
+    priority: 1
+  - name: XPATH
+    value: //p[14]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[14]/input
+    priority: 3
+- id: IM55Yf_l5EaKhBHZhnQgCA
+  name: Register
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Register']
+    priority: 0
+  - name: XPATH
+    value: //div[4]/button/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[4]/button/span
+    priority: 2
+projectParameters: []
+addons:
+- id: Xey4bVsJQEODIUN7ssaJMg
+  source: Store
+  version: 1.1.9
+  actions:
+  - id: cFwIaQAe2kKuqTip20sJhg
+    name: Select an option by index
+    description: Select option indexed {{index}} in {{element}}
+    className: io.testproject.addons.web.element.select.SelectOptionByIndex
+  - id: T52qF0F4S0eSDKz2NXQJ1w
+    name: Select all options by value attribute
+    description: Select all {{value}} options in {{element}}
+    className: io.testproject.addons.web.element.select.SelectOptionByValue
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
+- id: uhFWuHjwpU-gl6uzWR5TXA
+  source: Store
+  version: 1.1
+  actions:
+  - id: YHKpdDSNAE2QOWsTZob-4Q
+    name: Random Email Address
+    description: Generate random email address
+    className: main.Addons.RandomEmail
+  - id: wV-oaMe-N069YX-ISFnuxg
+    name: Random Password
+    description: Generate random password
+    className: main.Addons.RandomPassword
+  minSdkLevel: 2
+  minSdkVersion: 0.60.0
+  sdkGeneration: 1
+  language: Java
+  hash: 2734086EE7603B0D1D9D39A270CDB5C500EFF26E65A973871279B1B529E0299C
+- id: -kT4Fi1xFk6PF8xkHU4vDg
+  source: Store
+  version: 2.2
+  actions:
+  - id: -H98fdaDgEmY3UvRXNL7xQ
+    name: Random first name
+    description: Generate random first name
+    className: GenerateFirstName
+  - id: 8nGSxKf39kWU9SO2STu4Jw
+    name: Random last name
+    description: Generate random last name
+    className: GenerateLastName
+  - id: nHBKyka6qkCOqAudow9lbg
+    name: Random number in a range
+    description: Generate random number between {{min}} and {{max}}
+    className: GenerateNumberInRange
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: B8E84E0F0EE92A1E8BB93EB3C515DB4F0106CAA6087A437A171B1B0191F14F88
+- id: Mav6joc0AkWwIDSskHVzTQ
+  source: Store
+  version: 0.14
+  actions:
+  - id: g-SWxg5gWUa_7Zy6Pqtu7w
+    name: Get Text from Currently Selected Option
+    description: Retrieves the text of the currently selected option of a select element
+    className: Actions.GetTextFromSelectedItem
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 19104BCF9DF95CE68B689F0C66B05303FBDD596317EE8CFD6E88E4C24CE05CBE
